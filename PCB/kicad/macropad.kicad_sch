@@ -2679,6 +2679,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RotaryEncoder_Switch_1"
 			(pin_names
 				(offset 0.254)
@@ -5216,7 +5323,7 @@
 	)
 	(text "OLED Display 128x32"
 		(exclude_from_sim no)
-		(at 169.672 109.728 0)
+		(at 184.912 109.728 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5227,7 +5334,7 @@
 	)
 	(text "USB-C Connector"
 		(exclude_from_sim no)
-		(at 168.148 134.112 0)
+		(at 183.388 134.112 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5313,7 +5420,7 @@
 	)
 	(text "*"
 		(exclude_from_sim no)
-		(at 167.386 140.208 0)
+		(at 182.626 140.208 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5850,6 +5957,10 @@
 		(uuid "2c6cfe14-fd73-4126-8dba-26f88d0fa851")
 	)
 	(no_connect
+		(at 165.1 132.08)
+		(uuid "3e86bd47-d0c7-42a4-9d47-bb55eb582983")
+	)
+	(no_connect
 		(at 224.79 102.87)
 		(uuid "480dcc3c-433c-4ec0-afc9-10ada7eba451")
 	)
@@ -5862,8 +5973,20 @@
 		(uuid "4f6d406a-3424-4a36-8d30-ea74794675d4")
 	)
 	(no_connect
-		(at 167.64 148.59)
+		(at 182.88 148.59)
 		(uuid "50122c84-cd08-457c-b281-102b3d686203")
+	)
+	(no_connect
+		(at 165.1 125.73)
+		(uuid "57e6e415-6774-42a6-8bd1-48d227cc3674")
+	)
+	(no_connect
+		(at 165.1 144.78)
+		(uuid "8e65f05d-e588-4d36-b022-6ac7be195355")
+	)
+	(no_connect
+		(at 165.1 138.43)
+		(uuid "9dcb2b8f-8446-4060-a57d-6f843b107238")
 	)
 	(no_connect
 		(at 179.07 69.85)
@@ -5872,6 +5995,10 @@
 	(no_connect
 		(at 179.07 57.15)
 		(uuid "c613ced8-7ae5-47eb-b9e5-43c02afb8e5a")
+	)
+	(no_connect
+		(at 165.1 119.38)
+		(uuid "d908e10c-fce5-4a65-8b4b-23a75b5d7dca")
 	)
 	(no_connect
 		(at 138.43 86.36)
@@ -5889,9 +6016,13 @@
 		(at 269.24 97.79)
 		(uuid "f9cdcb0a-1d5b-4e1f-af8c-76e181f91e3e")
 	)
+	(no_connect
+		(at 165.1 113.03)
+		(uuid "fa60a5b4-6718-4abc-9eee-85061c35f998")
+	)
 	(polyline
 		(pts
-			(xy 158.75 132.08) (xy 158.75 162.56)
+			(xy 173.99 132.08) (xy 173.99 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5971,7 +6102,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 161.29) (xy 176.53 148.59)
+			(xy 191.77 161.29) (xy 191.77 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6221,7 +6352,7 @@
 	)
 	(polyline
 		(pts
-			(xy 196.85 129.54) (xy 196.85 107.95)
+			(xy 212.09 129.54) (xy 212.09 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6341,7 +6472,7 @@
 	)
 	(polyline
 		(pts
-			(xy 196.85 162.56) (xy 196.85 132.08)
+			(xy 212.09 162.56) (xy 212.09 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6381,7 +6512,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 129.54) (xy 196.85 129.54)
+			(xy 173.99 129.54) (xy 212.09 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6611,7 +6742,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 107.95) (xy 158.75 129.54)
+			(xy 173.99 107.95) (xy 173.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6971,7 +7102,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 162.56) (xy 196.85 162.56)
+			(xy 173.99 162.56) (xy 212.09 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7031,7 +7162,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 132.08) (xy 196.85 132.08)
+			(xy 173.99 132.08) (xy 212.09 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7421,7 +7552,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 107.95) (xy 196.85 107.95)
+			(xy 173.99 107.95) (xy 212.09 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7741,7 +7872,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 125.73) (xy 176.53 125.73)
+			(xy 190.5 125.73) (xy 191.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7811,7 +7942,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 161.29) (xy 176.53 161.29)
+			(xy 180.34 161.29) (xy 191.77 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8231,7 +8362,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 123.19) (xy 176.53 123.19)
+			(xy 190.5 123.19) (xy 191.77 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8972,7 +9103,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 176.53 143.51 180)
+		(at 191.77 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8982,7 +9113,7 @@
 		)
 		(uuid "4876a09f-4476-418f-b69b-938ee3d2d151")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.7024 143.51 0)
+			(at 185.9424 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,7 +9125,7 @@
 	)
 	(global_label "USBG"
 		(shape input)
-		(at 176.53 140.97 180)
+		(at 191.77 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9004,7 +9135,7 @@
 		)
 		(uuid "4bb7ba53-988e-4726-9cc2-f8970d68143d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.4648 140.97 0)
+			(at 183.7048 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9675,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 176.53 118.11 180)
+		(at 191.77 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9554,7 +9685,7 @@
 		)
 		(uuid "ba7d5f69-366a-4a87-bb3b-893fa2668ec4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.9767 118.11 0)
+			(at 185.2167 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9874,7 +10005,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 176.53 146.05 180)
+		(at 191.77 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9884,7 +10015,7 @@
 		)
 		(uuid "f602d987-0b80-4ac4-91db-2a6f2f38da7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.7024 146.05 0)
+			(at 185.9424 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +10049,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 176.53 120.65 180)
+		(at 191.77 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9928,7 +10059,7 @@
 		)
 		(uuid "fdd47f1f-67d6-4b6a-916a-f8b5ed028057")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.0372 120.65 0)
+			(at 185.2772 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +11111,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:OLED_128x32")
-		(at 179.07 121.92 0)
+		(at 194.31 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10988,7 +11119,7 @@
 		(dnp no)
 		(uuid "2169f744-0eea-4ee5-8275-2661acbcc343")
 		(property "Reference" "J1"
-			(at 180.086 112.268 0)
+			(at 195.326 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +11128,7 @@
 			)
 		)
 		(property "Value" "OLED_128x32"
-			(at 180.086 114.808 0)
+			(at 195.326 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,7 +11137,7 @@
 			)
 		)
 		(property "Footprint" "B4B-XH-AM__LF__SN_:JST_B4B-XH-AM__LF__SN_"
-			(at 179.07 113.03 0)
+			(at 194.31 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +11146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 120.65 0)
+			(at 194.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +11155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 121.92 0)
+			(at 194.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14395,6 +14526,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 162.56 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7190bd98-60f4-4d44-864d-c7bdbed3b47a")
+		(property "Reference" "H5"
+			(at 163.576 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pad"
+			(at 163.576 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 162.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 162.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6483eef-c616-4eb7-a203-5d45c66ee868")
+		)
+		(instances
+			(project "macropad"
+				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 212.09 68.58 90)
 		(unit 1)
@@ -14754,7 +14951,7 @@
 	)
 	(symbol
 		(lib_id "Connector:4P4C")
-		(at 185.42 144.78 180)
+		(at 200.66 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14762,7 +14959,7 @@
 		(dnp no)
 		(uuid "77bf8aa6-3a5b-4ba4-b9d8-ad4b29a371d3")
 		(property "Reference" "J2"
-			(at 185.674 134.874 0)
+			(at 200.914 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14771,7 +14968,7 @@
 			)
 		)
 		(property "Value" "4P4C"
-			(at 185.674 137.414 0)
+			(at 200.914 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14780,7 +14977,7 @@
 			)
 		)
 		(property "Footprint" "B4B-XH-AM__LF__SN_:JST_B4B-XH-AM__LF__SN_"
-			(at 185.42 146.05 90)
+			(at 200.66 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14789,7 +14986,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 146.05 90)
+			(at 200.66 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14798,7 +14995,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"
-			(at 185.42 144.78 0)
+			(at 200.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15184,7 +15381,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 148.59 0)
+		(at 177.8 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15192,7 +15389,7 @@
 		(dnp no)
 		(uuid "844e4de2-261f-48b6-9a7b-a78a3fa297e8")
 		(property "Reference" "#PWR012"
-			(at 162.56 152.4 0)
+			(at 177.8 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15201,7 +15398,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 162.56 145.288 90)
+			(at 177.8 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15210,7 +15407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 148.59 0)
+			(at 177.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15219,7 +15416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 148.59 0)
+			(at 177.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15228,7 +15425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 148.59 0)
+			(at 177.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15250,7 +15447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 125.73 270)
+		(at 190.5 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15259,7 +15456,7 @@
 		(fields_autoplaced yes)
 		(uuid "86c4ed16-243d-480a-90f1-f49ca74196b4")
 		(property "Reference" "#PWR010"
-			(at 168.91 125.73 0)
+			(at 184.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15268,7 +15465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 125.7299 90)
+			(at 186.69 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15277,7 +15474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 125.73 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15286,7 +15483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 125.73 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15295,7 +15492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 125.73 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15509,6 +15706,72 @@
 			(project ""
 				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 162.56 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d29fa4a-5f1c-4299-9c3c-d08db80c0174")
+		(property "Reference" "H3"
+			(at 163.576 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pad"
+			(at 163.576 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac8c987a-9185-40d7-932f-3a4a90e9d75e")
+		)
+		(instances
+			(project "macropad"
+				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -15925,6 +16188,72 @@
 			(project "macropad"
 				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 162.56 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b48cd03-a6f9-4859-81f3-3c6dad38c046")
+		(property "Reference" "H6"
+			(at 163.576 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pad"
+			(at 163.576 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf6b543-58cb-436c-9029-265ca1c4e0e2")
+		)
+		(instances
+			(project "macropad"
+				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -18060,7 +18389,7 @@
 	)
 	(symbol
 		(lib_id "SK12D07VG4:SK12D07VG4")
-		(at 165.1 156.21 0)
+		(at 180.34 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18069,7 +18398,7 @@
 		(fields_autoplaced yes)
 		(uuid "c40e73b8-d4dc-4ff0-825a-9bfd2fa2a1d4")
 		(property "Reference" "U3"
-			(at 171.45 153.6699 0)
+			(at 186.69 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18078,7 +18407,7 @@
 			)
 		)
 		(property "Value" "ON/OFF"
-			(at 171.45 156.2099 0)
+			(at 186.69 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18087,7 +18416,7 @@
 			)
 		)
 		(property "Footprint" "SK12D07VG4:SK12D07VG4"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18097,7 +18426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18106,7 +18435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18444,7 @@
 			)
 		)
 		(property "MF" "C&K"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18125,7 +18454,7 @@
 			)
 		)
 		(property "Description_1" "Switch Slide ON ON SPDT Side Slide 0.3A 30VDC PC Pins Bracket Mount/Through Hole Bulk"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18135,7 +18464,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18145,7 +18474,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18155,7 +18484,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK12D07VG4/C%2526K/view-part/?ref=snap"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18165,7 +18494,7 @@
 			)
 		)
 		(property "MP" "SK12D07VG4"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18175,7 +18504,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18185,7 +18514,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SK12D07VG4/C%2526K/view-part/?ref=eda"
-			(at 165.1 156.21 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18207,6 +18536,72 @@
 			(project ""
 				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 162.56 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9931f7c-7c1f-4cf3-b07f-4e7bec4041a2")
+		(property "Reference" "H2"
+			(at 163.576 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pad"
+			(at 163.576 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "884ed038-1eb1-4f31-83f3-0412eabde8f7")
+		)
+		(instances
+			(project "macropad"
+				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -18807,7 +19202,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 175.26 123.19 90)
+		(at 190.5 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18816,7 +19211,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5ae2163-c931-40b8-9667-26c811da23ec")
 		(property "Reference" "#PWR09"
-			(at 179.07 123.19 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18825,7 +19220,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 171.45 123.1899 90)
+			(at 186.69 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18834,7 +19229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 123.19 0)
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18843,7 +19238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 123.19 0)
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18852,7 +19247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 123.19 0)
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19155,6 +19550,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 162.56 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5c8ae6f-f277-4c74-8427-5fdc913d88bb")
+		(property "Reference" "H4"
+			(at 163.576 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pad"
+			(at 163.576 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c646087f-8526-4a2c-a555-ad426fd92bfa")
+		)
+		(instances
+			(project "macropad"
+				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 269.24 45.72 0)
 		(unit 1)
@@ -19282,6 +19743,72 @@
 			(project "macropad"
 				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 162.56 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "efe13a82-f9d0-4789-bef2-0ebc3d311081")
+		(property "Reference" "H1"
+			(at 163.576 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pad"
+			(at 163.576 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 162.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 162.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3a2531f-8058-4f2e-9493-c6ae6df45362")
+		)
+		(instances
+			(project ""
+				(path "/c2daed51-d26c-4498-b7e1-e438b5b63faa"
+					(reference "H1")
 					(unit 1)
 				)
 			)
