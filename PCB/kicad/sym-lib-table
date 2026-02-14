@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TL1105VF160Q")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/PCB/resources/symbols/TL1105VF160Q.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G14DBVRE4")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/PCB/resources/symbols/SN74LVC1G14DBVRE4.kicad_sym")(options "")(descr "SOT-23 Texas Instruments Inverter"))
+  (lib (name "SK12D07VG4")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/PCB/resources/symbols/SK12D07VG4.kicad_sym")(options "")(descr "1P1T NO Slide Switch Horizontal"))
+  (lib (name "MU-AS90R")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/PCB/resources/symbols/MU-AS90R.kicad_sym")(options "")(descr "5-way navigation switch"))
+  (lib (name "SLW-18115106-5A-RA-S-D")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/PCB/resources/symbols/SLW-18115106-5A-RA-S-D.kicad_sym")(options "")(descr ""))
+  (lib (name "ScottoKeebs")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/PCB/resources/symbols/ScottoKeebs.kicad_sym")(options "")(descr ""))
+)
