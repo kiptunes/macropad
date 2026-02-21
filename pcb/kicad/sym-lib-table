@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TL1105VF160Q")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/pcb/resources/symbols/TL1105VF160Q.kicad_sym")(options "")(descr ""))
+  (lib (name "MU-AS90R")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/pcb/resources/symbols/MU-AS90R.kicad_sym")(options "")(descr "5-way navigation switch"))
+  (lib (name "ScottoKeebs")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/pcb/resources/symbols/ScottoKeebs.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM13SMTR")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/pcb/resources/symbols/PCM13SMTR.kicad_sym")(options "")(descr "1P3T slide switch"))
+  (lib (name "JS202011SCQN")(type "KiCad")(uri "/home/kip/Projects/Hardware/Macropad/pcb/resources/symbols/JS202011SCQN.kicad_sym")(options "")(descr "DPDT SMD switch"))
+)
