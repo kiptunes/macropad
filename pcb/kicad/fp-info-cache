@@ -1,4 +1,4 @@
-27257349156246853
+27262666477916798
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107933,12 +107933,33 @@ Switch
 6
 6
 macropad_components
+OLED_128x32
+
+
+0
+4
+4
+macropad_components
 SW_JS202011SCQN
 
 
 0
 6
 6
+macropad_components
+SW_KS33_1.5u
+Footprint for Gateron KS33 switches
+
+0
+2
+2
+macropad_components
+SW_KS33_1.25u
+Footprint for Gateron KS33 switches
+
+0
+2
+2
 macropad_components
 SW_KS33_1u
 Footprint for Gateron KS33 switches

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -22,11 +22,11 @@
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
-      "pads": true,
+      "pads": false,
       "text": false,
       "tracks": false,
       "vias": false,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -35,6 +35,8 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_values",
+      "footprint_references",
       "tracks",
       "drc_errors",
       "drawing_sheet",

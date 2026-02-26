@@ -497,7 +497,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.36,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -517,7 +517,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../CAD/Case/macropad.step",
+      "step": "../../cad/Case/macropad.step",
       "svg": "",
       "vrml": ""
     },
@@ -648,14 +648,6 @@
     [
       "c2daed51-d26c-4498-b7e1-e438b5b63faa",
       "Root"
-    ],
-    [
-      "db893d30-9501-49f6-a817-15c8877c592c",
-      "LED Backlight"
-    ],
-    [
-      "0237cd09-cf5d-4813-9cbc-08906972a74b",
-      "Switch Matrix"
     ]
   ],
   "text_variables": {}
